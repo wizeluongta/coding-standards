@@ -17,7 +17,7 @@ Phương pháp tốt nhất để cài đặt thêm một chức năng mới có
         ```
   * Có thể chạy profile bằng lệnh sau:
 
-        ```
+        ```Ruby
         cucumber -p profile_name
         ```
 * Khi kiểm tra sự tồn tại của các element có hiển thị text như link hay button thì không kiểm tra bằng ID mà kiểm tra bằng text. Vì làm như vậy sẽ có thể phát hiện ra lỗi trong trường hợp dùng i18n.
