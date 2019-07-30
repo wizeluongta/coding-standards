@@ -10,16 +10,14 @@ Phương pháp tốt nhất để cài đặt thêm một chức năng mới có
 
 * Có thể tạo profile riêng cho các scenario được gắn tag ` @javascript `.
   * Profile có thể định nghĩa tại file ` cucumber.yml `.
-
-        ```Ruby
-        # definition of a profile:
-        profile_name: --tags @tag_name
-        ```
+    ```Ruby
+    # definition of a profile:
+    profile_name: --tags @tag_name
+    ```
   * Có thể chạy profile bằng lệnh sau:
-
-        ```Ruby
-        cucumber -p profile_name
-        ```
+    ```Ruby
+    cucumber -p profile_name
+    ```
 * Khi kiểm tra sự tồn tại của các element có hiển thị text như link hay button thì không kiểm tra bằng ID mà kiểm tra bằng text. Vì làm như vậy sẽ có thể phát hiện ra lỗi trong trường hợp dùng i18n.
 
 * Trong object nào đấy có nhiều chức năng khác thì nên chia các feature riêng:
